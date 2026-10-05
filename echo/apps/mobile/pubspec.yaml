@@ -1,0 +1,17 @@
+name: echo
+description: Echo voice-first AI companion.
+publish_to: none
+version: 0.1.0+1
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  record: ^5.1.2
+  flutter_tts: ^4.0.2
+  permission_handler: ^11.3.1
+  dio: ^5.5.0
+  path_provider: ^2.1.4
+  hugeicons: ^0.0.11
+flutter:
+  uses-material-design: false
